@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Just a Freestyle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="mylogo.jpg" type="image/X-icon" >
+
+<link rel="stylesheet" href="grid_image.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Dancing+Script:wght@500&family=Parisienne&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+<style>
+html{
+		scroll-behavior:smooth;
+		}
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		background-color:#111;
+		}
+nav{font-size:25px;}
+.ham{font-size:30px; align-self:center;}
+.brainy{
+		align-self:center;
+   font-weight:bold;
+   }
+header{
+		paddin:10px;
+		margin:0;
+		}
+nav{
+		background-color:#333;
+		color:lime;
+		border-bottom:2px solid #aeaeae;
+		display:flex;
+		justify-content:space-between;
+		padding:8px 15px;
+		margin:0;
+	  }
+.drop{
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		transition:height 650ms ease-out;
+		}
+.drop > div{
+		padding:15px;
+		border-bottom:1px solid lime;
+		text-align:center;
+		}
+.drop > div > a{
+		text-decoration:none;
+		}
+.drop > div > a:hover{
+		font-weight:700;
+		}
+.img01{
+		width:auto;
+		}
+.img1{
+		width:100%;
+		}
+.one{
+		margin:2pc 0pc 4pc 20px;
+		}
+.one0{
+		font-size:25px;
+		padding-left:5px;
+		background:linear-gradient(90deg,#222 85%,#555);
+		border-left:10px solid cyan;
+		border-top: 2px solid #f4f4f4;
+		border-bottom: 2px solid #f4f4f4;
+		border-radius:10px 0px 0px 10px;
+		font-weight:bold;
+		color:lime;
+		}
+.one1{
+		margin:15px 5px 15px 0px;
+		background-color:#333;
+		padding:10px;
+		color:lime;
+		border-radius:10px 0px 0px 10px;
+		border:1.5px solid #f4f4f4;
+		}
+.one2{
+		font-size:20px;
+		padding-left:5px;
+		background:linear-gradient(90deg,#222 85%,#555);
+		border-left:10px solid cyan;
+		border-radius:10px 0px 0px 10px;
+		font-weight:bold;
+		color:lime;
+		width:85%;
+		margin:auto 0px auto auto;
+		border-top:1.5px solid #f4f4f4;
+		border-bottom:1.5px solid #f4f4f4;
+		}
+.foot{
+		background-colo:pink;
+		}
+.three{
+		margin:auto auto 0pc auto;
+		}
+.one3{
+		margin:0px;
+		border-radius:0px;
+		border:0px;
+		border-top:1px solid #f4f4f4;
+		text-align:center;
+		}
+.img02{
+		position:relative;
+		background-color:darkblue;
+		widt:100%;
+		height:200px;
+		background-image:url(geek.png);
+		background-size:cover;
+		background-repeat:no-repeat;
+		border:1.5px solid #aeaeae;
+		background-position:50% 30%;
+		}
+#info{
+		background-colo:pink;
+		margin:10px 0px;
+		padding:10px;
+		position:relative;
+		}
+#info2{
+		background-color:#222;
+		padding:10px;
+		position:relative;
+		width:auto;
+		height:170px;
+		color:lime;
+		}
+#marker,#marker2{
+		width:75%;
+		background-colo:pink;
+		margin:auto;
+		padding:10px;
+		text-align:center;
+		}
+#marker2{
+		font-size:20px;
+		font-weight:700;
+		}
+#left,#left2,#right2,#right{
+		position:absolute;
+		font-size:50px;
+		border:0px solid #aeaeae;
+		background-color: transparent;
+		color:lime;
+		outline:none;
+		}
+#left{
+		left:2%;
+		top:50px;
+		}
+#left2{
+		left:2%;
+		top:50px;
+		background-colo:green;
+		display:block;
+		}
+#right{
+		left:85%;
+		top:50px;
+		}
+#right2{
+		left:85%;
+		background-colo:lightblue;
+		display:block;
+		top:50px;
+		}
+#left:hover,#left2:hover,#right2:hover, #right:hover{
+		color:green;
+		}
+.icon{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}		
+a:link{
+		color:lime;
+		}
+a:visited{
+		color:hotpink;
+		}
+a:hover{
+		color:lightgreen;
+		}
+
+
+
+@media(min-width:768px){
+nav{
+		padding:15px 50px;
+		}
+.myflex1{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+		padding:15px 50px;
+		}
+.one{
+		width:30%;
+		}
+.three{
+		width:auto;
+		}
+.myflex2{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:flex-start;
+		padding:15px 50px;
+		}
+.ham{
+		display:none;
+		}
+header{
+		display:flex;
+		justify-content:space-between;
+		background-color:#333;
+		padding:15px 50px;
+		align-items:center;
+		}
+.drop{
+		background-colo:pink;
+		width:auto;
+		height:auto;
+		display:flex;
+		}
+.drop > div, nav{
+		border:0px;
+		}
+
+
+
+		
+ }
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+<header>
+ <nav>
+   <div class="brainy">Just Freestyle</div>
+   <div class="ham">&#9776</div>
+ </nav>
+ <section class="drop">
+   <div class="aa"><a href="#go1">ABOUT ECX</a></div>
+   <div class="bb"><a href="#go2">OUR TUTORS</a></div>
+   <div class="cc"><a href="#go3">OUR MARKERS</a></div>
+   <div class="dd"><a href="#go4">ABOUT ME / CONTACT ME</a></div>
+ </section> 
+</header>
+
+<div class="img01"><img class="img1" src="Ecx.jpg"/></div>
+
+
+<article class="myflex1" id="go1">
+<section class="one ">
+  <div class="one0">MY LOVE FOR ECX AND HOW THEY IMPACTED ME</div>
+  <div class="one1">ECX has had a great impact on my life. I can't imagine myself if my friend hadn't told me about it. I just decided to join to pass time and it's so worth it. I've met alot of iconic characters and I've been inspired by them. Long live ECX.</div>
+</section>
+
+<section class="one" id="go2">
+  <div class="one0">Some of our Tutors are;</div>
+  <div class="img02">
+  <button id="left">&#10094</button>
+  <button id="right">&#10095</button>
+  </div>
+  <div id="info" class="one1"><h3>Sodiq Akinjobi</h3> He is a giant in the midst of giants. The programming guru. He is Geektutor. He's done alot for us.<br> Thank you so much.</div>
+</section>
+
+
+<section class="one" id="go3">
+  <div class="one0">Our Present Markers</div>  
+  <div id="info2" class="one1">
+  <button id="left2">&#10094</button>
+  <button id="right2">&#10095</button>
+  <div id="marker2">Favourene</div>
+    <div id="marker">Our markers are absolutely doing their best. I remember on Day something, I submitted and he gave me 12.</div>
+   </div>
+</section>
+</article>
+
+
+
+<article class="myflex2">
+<section class="one">
+  <div class="one2">Appreciation</div>
+  <div class="one1">ECX has been empowering lives so far and has archieved alot of progress in it.</div>
+  <div class="one2">Our Expectations</div>
+  <div class="one1">We expect ECX to increase more tracks coverage, sour higher and archieve more greatness and empower more lives. </div>
+</section>
+
+
+<section class="one" id="go4">
+  <div class="one2">About Me</div>
+  <div class="one1">I'm a web developer with the knowledge of Html , css and Js. Hook me up if you want to get a little job done for free.</div>
+</section>
+</article>
+
+
+
+<article class="foot">
+<section class="one three">
+  <div class="one2">Contact Me</div>
+  <div class="one1 one3">You can contact me through my email <a href="fasasisherif@gmail.com">fasasisherif@gmail.com</a><br>
+    <div><a href="https://www.sololearn.com/ ">
+<img class="icon" src=" https://www.sololearn.com/Uploads/icons/sololearn.png" alt="Sololearn img">
+</a></div>
+    <div><a href=" https://www.facebook.com/ummu.asmaazizat">
+<img class="icon" alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+</a></div>
+    <div><a href="  ">
+<img class="icon" alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" /></div>
+<div>Copyright 2020</div>    
+    
+    
+</section>
+</article>
+  
+</body>
+
+<script>
+var ham = document.getElementsByClassName("ham");
+var drop = document.getElementsByClassName("drop");
+var img02 = document.getElementsByClassName("img02");
+var name = document.getElementById("name");
+var name_info = document.getElementById("name_info");
+var info = document.getElementById("info");
+var left = document.getElementById("left");
+var right = document.getElementById("right");
+var marker = document.getElementById("marker");
+var marker2 = document.getElementById("marker2");
+var left2 = document.getElementById("left2");
+var right2 = document.getElementById("right2");
+
+
+ham[0].addEventListener ("click",myfunc)
+left.addEventListener ("click",myfunc1)
+right.addEventListener ("click",myfunc2)
+left2.addEventListener ("click",myfunc3)
+right2.addEventListener ("click",myfunc4)
+
+
+var a = 0
+function myfunc(){
+drop[0]	.style.height ="232px"	
+drop[0]	.style.width ="auto"
+a++;
+
+if (a%2 === 0)	{
+drop[0]	.style.height ="0px"	
+drop[0]	.style.width ="auto"		
+		}	
+	}
+
+var arr = ["geek.png", "pic1.png", "pic2.png", "pic3.png"]
+var arr2 = [`<h3>Akinjobi Sodiq</h3> He is a giant in the midst of giants. The programming guru. He is Geektutor. He's done alot for us.<br> Thank you so much.`, "<h3>Bami Ogunfemi</h3>A beautiful lady soaring up to the sky. You're a legend. I remember that I make sure I don't miss your classes. <br>I've learnt so much you.", "<h3>Abdullahi Cap</h3> You've inspired us that anybody can do it. Your head is full already but you pretend like you don't know much. You've taught us humility.<br> Thanks to you.", "<h3>Kromate</h3> The genius. What does he not know. I don't know. But I was privileged to attend his class once."]
+var arr3 = ["Favourene", "Mustapha", "Omolala", "Geek"]
+var arr4 = ["You're absolutely doing your best. But I remember on Day 5 or so, I submitted and he gave me 12!", `I'm satisfied with your grading.<br> Mr Nice. Always commenting 'nice'.`, "Sometimes, I'm not sure if it's you Favourene that marked my work since you both have the same initial 'F'", `Dangerous marker.<br> He can give -1. But he's a good criticizer`]
+
+var a = 0;
+function myfunc1(){
+if (a <= 0){
+a = arr.length
+		}
+a--;
+img02[0].style.backgroundImage = 'url('+ arr[a] + ')'
+info.innerHTML = arr2[a]
+	}
+
+
+function myfunc2(){
+if (a >= arr.length - 1){
+a = -1;
+   }
+a++;
+img02[0].style.backgroundImage = 'url('+ arr[a] + ')'
+info.innerHTML = arr2[a]
+	}
+
+
+var b = 0;
+function myfunc3(){
+if (b <= 0){
+b = arr4.length
+		}
+b--;
+marker.innerHTML = arr4[b]
+marker2.innerHTML = arr3[b]
+	}
+
+
+function myfunc4(){
+if (b >= arr4.length - 1){
+b = -1;
+   }
+b++;
+marker.innerHTML = arr4[b]
+marker2.innerHTML = arr3[b]
+	}
+
+
+
+
+</script>
+
+</html>
